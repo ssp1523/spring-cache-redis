@@ -13,7 +13,7 @@ import java.util.Random;
  * @date: Create by in 6:19 PM 2018/12/3
  */
 @Service
-@CacheConfig(cacheNames = "books1")
+@CacheConfig(cacheNames = "books")
 public class BookService {
 
 

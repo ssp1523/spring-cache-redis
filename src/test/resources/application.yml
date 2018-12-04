@@ -9,6 +9,4 @@ spring:
       default-expiration: 60
       expires:
         books: 20
-        books1: 10
-      use-key-prefix: false
 
