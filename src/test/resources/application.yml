@@ -1,0 +1,14 @@
+spring:
+  redis:
+    host: localhost
+    port: 6379
+  cache:
+    type: redis
+
+    redis:
+      default-expiration: 60
+      expires:
+        books: 20
+        books1: 10
+      use-key-prefix: false
+
